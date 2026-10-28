@@ -1,99 +1,99 @@
-# 🚀 Wonik IPS CS Engineer Portfolio
+# 🚀 원익IPS CS 엔지니어 포트폴리오
 
-Technical portfolio repository of **Kim Woo-jin**, a Field Service Engineer specialized in semiconductor equipment. This repository documents hands-on equipment mechanisms, systematic troubleshooting, and field maintenance expertise.
-
----
-
-![Semiconductor Equipment Overview](https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80)
-
-## 📋 Table of Contents
-1. [Company Overview](#1-company-overview)
-2. [Equipment Introduction](#2-equipment-introduction)
-3. [Cover Letter (자기소개서 양식)](#3-cover-letter-자기소개서-양식)
+반도체 장비 전문 필드 서비스 엔지니어(Field Service Engineer) **김우진**의 기술 포트폴리오 저장소입니다. 본 저장소는 현장 장비 메커니즘, 체계적인 트러블슈팅, 현장 유지보수 전문성을 기록합니다.
 
 ---
 
-## 1. Company Overview
+![반도체 장비 개요](https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80)
 
-### 📌 Corporate Overview & Vision
-* **Company Name:** Wonik IPS
-* **Core Competencies:** Localization of core front-end semiconductor equipment (CVD, ALD, Etch, Anneal, etc.) and comprehensive support for high-volume manufacturing lines of global semiconductor makers.
-* **Alignment with Ideal Candidate:** 
-  * Field Service Engineer equipped with rigorous process understanding and rapid on-site response capabilities.
-  * Maximizing equipment uptime through meticulous cable routing, organized wiring duct maintenance, and systematic sequence control skills.
-
-![Cleanroom Engineering](https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80)
-
-### 🎯 Target Role (Field Service & CS Engineer)
-* **Equipment Reliability Assurance:** Performing precision installation, preventive maintenance (PM), and hardware/mechanical troubleshooting for advanced semiconductor fabrication tools.
-* **On-Site Communication & Diagnostics:** Rapid root cause analysis, sequence/electrical diagnostics, and seamless collaboration with cross-functional engineers and customers during equipment anomalies.
+## 📋 목차
+1. [기업 개요](#1-기업-개요)
+2. [장비 소개](#2-장비-소개)
+3. [자기소개서 양식](#3-자기소개서-양식)
 
 ---
 
-## 2. Equipment Introduction
+## 1. 기업 개요
 
-### ⚙️ Detailed Equipment Lineup & Mechanisms
+### 📌 기업 개요 및 비전
+* **기업명:** 원익IPS (Wonik IPS)
+* **핵심 역량:** 전공정 반도체 핵심 장비(CVD, ALD, Etch, Anneal 등) 국산화 및 글로벌 반도체 제조사의 양산 라인에 대한 종합적인 지원.
+* **인재상 부합성:** 
+  * 철저한 공정 이해도와 신속한 현장 대응 능력을 갖춘 필드 서비스 엔지니어.
+  * 꼼꼼한 케이블 라우팅, 체계적으로 정비된 배선 덕트 관리, 정밀한 시퀀스 제어 기술을 통한 장비 가동률(Uptime) 극대화.
 
-Analysis of Wonik IPS primary equipment brands, process mechanisms, and CS maintenance points across front-end semiconductor fabrication.
+![클린룸 엔지니어링](https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80)
 
-#### 1. PECVD (Plasma-Enhanced Chemical Vapor Deposition)
-* **Key Models:** `NOVA` (High-Throughput PECVD System), `GEMINI` (Multi-Chamber Sequential PECVD), `QUANTA`
-* **Target Applications:** Dielectric layers (SiO2, SiN, SiON), Amorphous Carbon Layers (ACL), and Hardmask layers in 3D NAND and DRAM fabrication.
-* **Core Operating Mechanisms:**
-  * **Plasma Source:** High-Frequency RF (13.56 MHz) and Low-Frequency RF power delivery to decompose precursor gases at lower temperatures (<400°C).
-  * **Showerhead & Gas Delivery:** Multi-hole gas distribution showerhead with Mass Flow Controllers (MFC) for uniform film thickness distribution.
-  * **Thermal Control:** Heating susceptor chucks with closed-loop PID control to ensure precision thermal stability across 300mm wafers.
-* **CS Field Focus & PM Points:**
-  * Auto-matching network (AMN) impedance tuning and RF cable degradation checks.
-  * Regular chamber wet-cleaning, showerhead replacement, and in-situ NF3 plasma dry cleaning calibration.
-  * Vacuum integrity maintenance (O-ring replacements, turbomolecular pump checks, background leak rate testing).
-
-#### 2. ALD (Atomic Layer Deposition)
-* **Key Models:** `NOVA ALD`, `GEMINI ALD`, `ALD High-K`
-* **Target Applications:** Ultra-thin high-k gate dielectrics (HfO2, ZrO2), conformal barrier metals (TiN), and 3D NAND high-aspect-ratio trench filling.
-* **Core Operating Mechanisms:**
-  * **Self-Limiting Surface Reaction:** Alternate pulsing of chemical precursors and inert purge gases (N2 / Ar) for mono-atomic layer control.
-  * **High-Speed Valve Control:** Fast-switching pulse valves operating at millisecond intervals to deliver precise precursor quantities.
-  * **Purge & Thermal Dynamics:** High-purity gas purge cycles to clear unreacted precursor gas and prevent gas-phase CVD reactions.
-* **CS Field Focus & PM Points:**
-  * Inspection and replacement of high-cycle pneumatic precursor valves to prevent micro-leaks.
-  * Heating line temperature trace monitoring to prevent precursor condensation and clogging in delivery lines.
-  * Sub-nanometer film thickness verification and quartz precursor canister maintenance.
-
-#### 3. Dry Etch Systems
-* **Key Models:** `ARCUS` (Metal & Oxide Etching System)
-* **Target Applications:** Patterning metal interconnects, contact hole etching, and high-aspect-ratio (HAR) dielectric trench formation.
-* **Core Operating Mechanisms:**
-  * **Plasma Generation:** Inductively Coupled Plasma (ICP) or Capacitively Coupled Plasma (CCP) for high-density reactive ion etching.
-  * **Electrostatic Chuck (ESC):** Electrostatic wafer clamping with backside helium cooling gas to maintain stable wafer temperature under high RF power.
-  * **Endpoint Detection (EPD):** Optical Emission Spectroscopy (OES) monitoring plasma light emission wavelengths to detect layer transition real-time.
-* **CS Focus & PM Points:**
-  * ESC surface inspection, helium leak rate testing, and de-chucking charge dissipation verification.
-  * Consumable parts management (Focus Rings, Upper/Lower Electrodes, Gas Distribution Plates).
-  * RF matching unit calibration and RF grounding integrity maintenance to avoid plasma instability.
-
-#### 4. Thermal Processing & Anneal Systems
-* **Key Models:** `VERONA` (High-Temperature Vertical Furnace), `RTA System` (Rapid Thermal Annealing)
-* **Target Applications:** Dopant activation, lattice defect repair, film densification, and silicide formation.
-* **Core Operating Mechanisms:**
-  * **Heating Array:** High-power tungsten-halogen lamp arrays or multi-zone resistive heaters for rapid ramping rates.
-  * **Temperature Feedback:** Non-contact optical pyrometers and multi-point thermocouple sensors integrated with high-speed digital controllers.
-  * **Ambient Environment:** Ultra-high-purity inert gas (N2, Ar, H2/N2 forming gas) atmosphere control.
-* **CS Focus & PM Points:**
-  * Quartz boat/tube replacement and pyrometer emissivity calibration.
-  * Heater element resistance testing and thermocouple loop signal verification.
-  * Gas cabinet safety valve maintenance and O2 concentration sensor checks.
-
-![Hardware Diagnostics](https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1200&q=80)
-
-* **Maintenance & Troubleshooting Workflow**
-  * **Hardware Diagnostics:** Identifying electrical and mechanical faults using multimeters and sequence control circuit analysis.
-  * **Cable Management:** Enhancing maintainability and rapid circuit identification through structured wiring management and trunking ducts.
-  * **Field Adaptability:** Applying practical problem-solving skills, manual dexterity, and meticulous execution honed through industrial internships and leadership experience in capstone design projects.
+### 🎯 목표 직무 (필드 서비스 및 CS 엔지니어)
+* **장비 신뢰성 확보:** 첨단 반도체 제조 장비의 정밀 설치, 예방 유지보수(PM), 하드웨어 및 기계적 트러블슈팅 수행.
+* **현장 소통 및 진단:** 신속한 근본 원인 분석, 시퀀스/전기적 진단, 장비 이상 발생 시 유관 부서 및 고객사와의 원활한 협업.
 
 ---
 
-## 3. Cover Letter (자기소개서 양식)
+## 2. 장비 소개
+
+### ⚙️ 상세 장비 라인업 및 메커니즘
+
+반도체 전공정에 걸친 원익IPS 주요 장비 브랜드, 공정 메커니즘, CS 유지보수 포인트를 분석합니다.
+
+#### 1. PECVD (플라즈마 강화 화학 기상 증착기)
+* **주요 모델:** `NOVA` (고처리량 PECVD 시스템), `GEMINI` (멀티 챔버 순차적 PECVD), `QUANTA`
+* **적용 공정:** 3D NAND 및 DRAM 제조 공정 내 절연막(SiO2, SiN, SiON), 비정질 탄소막(ACL), 하드마스크 레이어.
+* **핵심 동작 메커니즘:**
+  * **플라즈마 소스:** 저온(<400°C)에서 전구체 가스를 분해하기 위한 고주파(13.56 MHz) 및 저주파 RF 전력 공급.
+  * **샤워헤드 및 가스 공급:** 균일한 박막 두께 분포를 위한 질량 흐름 컨트롤러(MFC)가 결합된 다공성 가스 분배 샤워헤드.
+  * **열 제어:** 300mm 웨이퍼 전반에 걸쳐 정밀한 열적 안정성을 보장하는 폐루프 PID 제어 가열 서셉터 척.
+* **CS 현장 집중 및 PM 포인트:**
+  * 자동 매칭 네트워크(AMN) 임피던스 튜닝 및 RF 케이블 열화 점검.
+  * 정기적인 챔버 습식 세정, 샤워헤드 교체, 인시튜(In-situ) NF3 플라즈마 건식 세정 캘리브레이션.
+  * 진공 무결성 유지(O링 교체, 터보분자 펌프 점검, 배경 누출률 테스트).
+
+#### 2. ALD (원자층 증착기)
+* **주요 모델:** `NOVA ALD`, `GEMINI ALD`, `ALD High-K`
+* **적용 공정:** 초미세 High-K 게이트 절연막(HfO2, ZrO2), 컨포멀 배리어 금속(TiN), 3D NAND 고종횡비 트렌치 매립.
+* **핵심 동작 메커니즘:**
+  * **자기 한정 표면 반응:** 단원자층 제어를 위한 화학적 전구체와 불활성 퍼지 가스(N2 / Ar)의 교대 펄스 주입.
+  * **고속 밸브 제어:** 정확한 전구체 양을 공급하기 위해 밀리초 단위로 작동하는 고속 스위칭 펄스 밸브.
+  * **퍼지 및 열역학:** 반응하지 않은 전구체 가스를 배출하고 기상 CVD 반응을 방지하기 위한 고순도 가스 퍼지 사이클.
+* **CS 현장 집중 및 PM 포인트:**
+  * 미세 누출 방지를 위한 고주기 공압 전구체 밸브 점검 및 교체.
+  * 공급 라인의 전구체 응축 및 막힘을 방지하기 위한 가열 라인 온도 트레이스 모니터링.
+  * 서브나노미터 단위 박막 두께 검증 및 석영 전구체 캐니스터 유지보수.
+
+#### 3. 건식 식각 시스템 (Dry Etch Systems)
+* **주요 모델:** `ARCUS` (금속 및 산화막 식각 시스템)
+* **적용 공정:** 금속 배선 패턴 형성, 콘택홀 식각, 고종횡비(HAR) 유전체 트렌치 형성.
+* **핵심 동작 메커니즘:**
+  * **플라즈마 생성:** 고밀도 반응성 이온 식각을 위한 유도 결합 플라즈마(ICP) 또는 용량 결합 플라즈마(CCP).
+  * **정전기 척(ESC):** 고RF 전력 조건에서 안정적인 웨이퍼 온도를 유지하기 위한 배면 헬륨 냉각 가스가 적용된 정전기 웨이퍼 클램핑.
+  * **종말점 검출(EPD):** 층 전환 실시간 감지를 위해 플라즈마 빛 방출 파장을 모니터링하는 광학 방출 분광법(OES).
+* **CS 집중 및 PM 포인트:**
+  * ESC 표면 검사, 헬륨 누출률 테스트, 디척킹 전하 소산 검증.
+  * 소모성 부품 관리(포커스 링, 상하부 전극, 가스 분배 플레이트).
+  * 플라즈마 불안정성 방지를 위한 RF 매칭 유닛 캘리브레이션 및 RF 접지 무결성 유지.
+
+#### 4. 열처리 및 어닐링 시스템
+* **주요 모델:** `VERONA` (고온 수직형 퍼니스), `RTA 시스템` (고속 열처리)
+* **적용 공정:** 불순물(도펀트) 활성화, 격자 결함 복구, 박막 밀화, 실리사이드 형성.
+* **핵심 동작 메커니즘:**
+  * **가열 어레이:** 빠른 승온 속도를 위한 고전력 텅스텐-할로겐 램프 어레이 또는 다중 구역 저항 히터.
+  * **온도 피드백:** 고속 디지털 컨트롤러와 연동된 비접촉식 광학 파이로미터 및 다중 포인트 열전대 센서.
+  * **주위 환경:** 초고순도 불활성 가스(N2, Ar, H2/N2 포밍 가스) 분위기 제어.
+* **CS 집중 및 PM 포인트:**
+  * 석영 보트/튜브 교체 및 파이로미터 방사율 캘리브레이션.
+  * 히터 소자 저항 테스트 및 열전대 루프 신호 검증.
+  * 가스 캐비닛 안전 밸브 유지보수 및 O2 농도 센서 점검.
+
+![하드웨어 진단](https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=1200&q=80)
+
+* **유지보수 및 트러블슈팅 워크플로**
+  * **하드웨어 진단:** 멀티미터와 시퀀스 제어 회로 분석을 활용한 전기적·기계적 결함 식별.
+  * **케이블 관리:** 체계적인 배선 관리 및 트렁킹 덕트를 통한 정비성 향상 및 신속한 회로 식별.
+  * **현장 적응력:** 산업체 현장실습과 캡스톤 디자인 프로젝트 리더십을 통해 연마한 실무 문제 해결 능력, 수공예적 숙련도, 꼼꼼한 실행력 적용.
+
+---
+
+## 3. 자기소개서 양식
 
 ### 1. 지원동기 및 직무 수행을 위해 준비해 온 과정 (핵심 역량)
 반도체 장비의 국산화를 선도해온 원익IPS의 기술 경쟁력과 현장 가동률(Uptime) 극대화에 기여하고자 지원했습니다. 대학에서 반도체 장비 전공을 수학하며 NOVA, GEMINI 시리즈 등 대표적인 PECVD/ALD 증착 장비부터 ARCUS 식각 장비, VERONA 열처리 장비까지 전공정 핵심 장비들의 메커니즘과 동작 원리를 체계적으로 학습했습니다. 특히 캡스톤 디자인 프로젝트에서 조장을 맡아 디아이워터(DI Water) 순환 세정 장비를 직접 설계·제작하며 스테퍼 모터, PLC 제어, 파티클 필터 어셈블리를 통합하는 실무 프로세스를 경험했습니다. 또한 현장 실습을 통해 장비 제작 및 선배 엔지니어 서포트 업무를 수행하며, 예기치 못한 하드웨어 이슈에 대응하는 꼼꼼함과 신속한 손놀림을 체득했습니다. 이러한 공학적 지식과 현장 밀착형 실무 감각을 바탕으로 원익IPS의 다양한 장비 안정성을 책임지는 엔지니어로 성장하겠습니다.
@@ -105,4 +105,4 @@ NOVA, GEMINI, ARCUS 등 다양한 전공정 장비를 다루는 CS 엔지니어�
 다양한 전공의 팀원들과 협업한 캡스톤 디자인 프로젝트와 카페 서비스 근무 경험을 통해 유관 부서 및 고객사와 원활히 소통하는 커뮤니케이션 능력을 갖추었습니다. 장비 트러블슈팅 현장은 고객사의 생산 라인과 직결되어 있어 침착하고 정확한 상황 판단과 소통이 필수적입니다. 현장 엔지니어 및 고객과의 적극적인 소통으로 이슈를 빠르게 공유하고 해결책을 도출하여, 고객 만족도를 높이고 원익IPS의 대외 신뢰도를 공고히 다지는 든든한 현장 파트너가 되겠습니다.
 
 ### 4. 입사 후 포부 및 장기적 목표
-입사 후 NOVA, GEMINI 등 원익IPS의 주력 장비군에 대한 철저한 이해와 선배들의 노하우 습득을 바탕으로 초기 셋업 및 PM 업무를 완벽히 소화하겠습니다. 나아가 예기치 못한 라인 셧다운 상황에서도 당황하지 않고 원인을 규명해 내는 '대체 불가능한 베테랑 CS 엔지니어'로 거듭나겠습니다. 장비의 가동률을 극대화하고 공정 수율 향상에 기여하여 원익IPS의 글로벌 경쟁력 강화에 앞장서는 핵심 인재가 될 것입니다.
+입사 후 NOVA, GEMINI 등 원익IPS의 주력 장비군에 대한 철저한 이해와 선배들의 노하우 습득을 바탕으로 초기 셋업 및 PM 업무를 완벽히 소화하겠습니다. 나아가 예기치 못한 라인 셧다운 상황에서도 당황하지 않고 원인을 규명해 내는 대체 불가능한 베테랑 CS 엔지니어로 거듭나겠습니다.
